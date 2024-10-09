@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../css/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.logo{
+  background-image: url(../img/logo2.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+.menu{
+  position: absolute;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 1000px;
+  padding: 20px;
+}
+.menu a{
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 123, 255);
+  margin: 0px;
+}
+.menu a:hover{
+  background-color: aqua;
+}
+.imagen{
+  margin: 100px;
+  margin-left: 250px;
+}
